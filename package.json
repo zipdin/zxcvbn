@@ -1,11 +1,14 @@
 {
-  "name": "zxcvbn",
-  "version": "4.4.2",
+  "name": "@zipdin/zxcvbn",
+  "version": "4.4.3",
   "description": "realistic password strength estimation",
   "author": "Dan Wheeler",
   "license": "MIT",
   "main": "lib/main.js",
-  "repository": "dropbox/zxcvbn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipdin/zxcvbn.git"
+  },
   "scripts": {
     "test": "coffeetape test/*.coffee | faucet",
     "test-saucelabs": "zuul -- test/*.coffee",
@@ -45,5 +48,14 @@
     "scoring",
     "entropy",
     "bruteforce"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/zipdin/zxcvbn/issues"
+  },
+  "homepage": "https://github.com/zipdin/zxcvbn#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
 }
